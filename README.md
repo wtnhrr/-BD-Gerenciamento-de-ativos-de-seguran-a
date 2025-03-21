@@ -13,7 +13,7 @@ Este sistema foi planejado e criado com atenção para atender às necessidades 
 
 ### Modelo de Entidade Relacional
 
-[MDR]()
+![MDR](https://github.com/wtnhrr/-BD-Gerenciamento-de-ativos-de-seguran-a/blob/main/DER.jpg)
 
 O Diagrama de Entidade-Relacionamento (DER) do nosso sistema de banco de dados reflete a estrutura para a gestão de ativos de segurança. A principal entidade central é "Ativo de Segurança", que é identificada de forma única por um número sequencial (idativosegurança). Essa entidade está relacionada a outras entidades essenciais, como "Status", "Licenças", "Bloqueio de Ativo", "Configurações", "Auditoria", e "Registro de Atividades".A entidade "Status" indica o estado atual do ativo (ativo, inativo, em manutenção) e data/hora atualizada, enquanto "Licenças" registra as informações pertinentes às licenças associadas a cada ativo. "Bloqueio de Ativo" gerencia situações em que o ativo precisa ser temporariamente desativado, incluindo motivos e períodos específicos.
 As entidades "Configurações" e "Auditoria" capturam detalhes cruciais relacionados à configuração do ativo e auditorias realizadas. Por fim, "Registro de Atividades" mantém um histórico das ações realizadas, oferecendo uma visão abrangente das operações passadas.
